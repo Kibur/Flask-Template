@@ -6,4 +6,4 @@ from flask import Flask
 app = Flask(__name__)
 app.config.from_object('config.DevelopmentConfig')
 
-from hello_world import views
+from hello_world import views, errors
