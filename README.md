@@ -8,13 +8,7 @@ Template structure following http://flask.pocoo.org/docs/0.10/ and https://explo
 ```
 git clone https://github.com/<username>/<project>
 ```
-<p>After cloning you can rename the folder and make sure to replace the project name in the following files:</p>
-<ul>
-<li>app.py</li>
-<li>__init__.py</li>
-<li>views.py</li>
-<li>errors.py</li>
-</ul>
+After cloning you can rename the folder and make sure to replace the project name in `app.py`
 <h2>Virtual environment (<b>recommended</b>)</h2>
 ```
 # Go to your project folder
