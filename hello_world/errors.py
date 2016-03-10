@@ -7,6 +7,10 @@ from hello_world import app
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 
+@app.errorhandler(401)
+def unauthorized(error):
+    return render_template('errors/401.html'), 401
+
 @app.errorhandler(403)
 def forbidden(error):
     return render_template('errors/403.html'), 403
